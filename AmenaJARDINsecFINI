@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head><!-- Fait par Maheva -->
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="amenagementjardinsec.css">
-    <title> Aménagement Jardin Sec</title>
+    <title>Aménagement Jardin Sec</title>
     <meta name="description" content="Aménagement de jardin sec par Lucas Jardins, spécialiste en jardin durable et esthétique.">
 
     <!--Open Graph pour FB, IG, Linked et autres RS-->
@@ -21,24 +21,24 @@
     <meta name="twitter:creator" content="@lucasjardins">
     <meta name="twitter:site" content="@lucasjardins">
 
-    <!--jSON Service de l’aménagement jardin sec-->
-    <script type="application/ld+jason">
+    <!-- JSON-LD Service de l’aménagement jardin sec -->
+    <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "type": "Service",
+            "@type": "Service",
             "name": "Aménagement jardin sec",
             "description": "Service d’aménagement de jardins secs, idéals pour les climats chauds, sans arrosage intensif, avec un rendu naturel et décoratif.",
             "provider": {
                 "@type": "Gardener",
                 "name": "Lucas Jardins",
                 "url": "https://www.lucasjardins.fr",
-                "adress": {
-                    "@type": "PostalAdress",
-                    "StreetAdress": "102 Chemin du Génie",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "102 Chemin du Génie",
                     "postalCode": "06000",
                     "addressLocality": "Nice",
-                    "adressRegion": "PACA",
-                    "adressCountry": "FR"
+                    "addressRegion": "PACA",
+                    "addressCountry": "FR"
                 }
             }
         }
