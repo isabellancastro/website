@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><!-- Page fait par Isabella-->
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="elagage.css">
+    <title>Elagage</title>
+    <meta name="description" content="Élagage de Lucas Jardins">
+
+    <!--Open Graph pour FB, IG, Linked et autres RS-->
+    <meta property="og:title" content="Élagage">
+    <meta propety="og:description" content="Jardin de Lucas propose plusieurs services donc celui de l'élagage.">
+    <meta property="og:url" content="https://www.lucasjardins.fr/services/élagage">
+    <meta property="og:image" content="URL_de_l'image_illustrative_elagaga.jpg">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Lucas Jardins">
+
+     <!-- Twitter Card -->
+     <meta name="twitter:title" content="Élagage - Aménagez votre espace extérieur avec style">
+     <meta name="twitter:description" content="Découvrez nos conseils pour créer des espaces verts harmonieux et florissants.">
+     <meta name="twitter:creator" content="@lucasjardins">
+     <meta name="twitter:site" content="@lucasjardins">
+
+     <!--jSON Service de la élagage-->
+     <script type="application/ld+jason">
+        {
+            "@context": "https://schema.org",
+            "type": "Service",
+            "name": "Élagage",
+            "description": "Service d'élagage professionnel accessible dans tout la région Alpes Maritimes.",
+            "provider": {
+                "@type": "Gardener",
+                "name": "Lucas Jardins",
+                "url": "https://www.lucasjardins.fr",
+            "adress": {
+                "@type": "PostalAdress",
+                "StreetAdress": "102 Chemin du Génie",
+                "postalCode": "06000",
+                "addressLocality": "Nice",
+                "adressRegion": "PACA",
+                "adressCountry": "FR"
+                }
+            }
+        
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Lucas Jardins</h1>
+            <ul>
+              <li><a href="accueil.html">Accueil</a></li>
+              <li><a href="apropos.html">À propos</a></li>
+              <li><a href="services.html">Nos Services</a></li>   
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="banniere">
+            <h1>Elagage</h1>
+        <div class="image-container">
+        <img src="contenu/images/elagage.jpg" alt="un exemlpe d'élagage 1">
+        <img src="contenu/images/elagage1.jpg" alt="un exemlpe d'élagage 2">
+        <img src="contenu/images/elagage2.jpg" alt="un exemlpe d'élagage 3">
+        <img src="contenu/images/elagage3.jpg" alt="un exemlpe d'élagage 4">
+        </div>
+        </section>
+        <section id="description">
+            <section id="information">
+                <h2>Informations élagage</h2>
+                <p>Nous sommes experts en élagage et entretien des arbres, offrant des solutions adaptées à vos besoins. Que ce soit pour la taille d'arbres, l'entretien de vos espaces verts ou la gestion de la sécurité végétale, nous vous accompagnons pour préserver la santé de vos arbres et garantir un environnement extérieur sécurisé et esthétique.</p>
+            </section>
+            <section id="fournisseurs">
+                <h2>Fournisseurs</h2>
+                <p>Nos fournisseurs jouent un rôle clé dans la réussite de chaque projet d’élagage. Ils nous fournissent non seulement des outils spécialisés (scies, tronçonneuses, échelles, etc.), mais aussi des équipements de sécurité et des produits de soin pour garantir la santé et la sécurité de vos arbres. Ces partenariats nous permettent de proposer des solutions efficaces et personnalisées, adaptées aux besoins spécifiques de chaque intervention.</p>
+                <p>L’entreprise sélectionne ses fournisseurs avec soin, en privilégiant ceux qui offrent des équipements de haute qualité, respectent les délais et adoptent des pratiques respectueuses de l’environnement. Grâce à cette collaboration, chaque projet d’élagage est réalisé dans les meilleures conditions, garantissant la santé des arbres, une taille précise et une gestion durable de vos espaces extérieurs.</p>
+                </section>
+        </section>
+    </main>
+    <footer>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <div class="footer-content">
+              <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
+              <div class="footer-info">
+                <ul class="social-links">
+                  <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                  <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+                </ul>
+        
+                <div class="info-blocks">
+                  <div class="info_container">
+                    <a href="tel:0788760571">07 88 76 05 71</a>
+                    <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                  </div>
+                  <div class="info_container">
+                    <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                    <address>102 Chemin du Génie, 06000 Nice</address>
+                  </div>
+                </div>
+        
+                <div class="credit">
+                  <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                  <ul>
+                    <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                    <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                    <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                    <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
+                    <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
+                    <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </footer>
+      </body>
+</html>
