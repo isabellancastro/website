@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head><!-- Fait par Laurette -->
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="amenagementaquatique.css
-    ">
+    <link rel="stylesheet" href="amenagementaquatique.css">
     <title> Aménagements Aquatiques</title>
     <meta name="description" content="Aménagements Aquatiques de Lucas Jardins">
 
@@ -22,8 +21,8 @@
      <meta name="twitter:creator" content="@lucasjardins">
      <meta name="twitter:site" content="@lucasjardins">
 
-     <!--jSON Service de l’aménagement aquatique-->
-     <script type="application/ld+jason">
+     <!--JSON-LD Service de l’aménagement aquatique-->
+     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "type": "Service",
@@ -33,13 +32,13 @@
                 "@type": "Gardener",
                 "name": "Lucas Jardins",
                 "url": "https://www.lucasjardins.fr",
-                "adress": {
-                    "@type": "PostalAdress",
-                    "StreetAdress": "102 Chemin du Génie",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "102 Chemin du Génie",
                     "postalCode": "06000",
                     "addressLocality": "Nice",
-                    "adressRegion": "PACA",
-                    "adressCountry": "FR"
+                    "addressRegion": "PACA",
+                    "addressCountry": "FR"
                 }
             }
         }
@@ -69,19 +68,18 @@
         </div>
     </section>
         <section id="description">
-            <section id="information">
-                <h2>Informations Aménagement Aquatique</h2>
-                <p>Notre service d’aménagement aquatique transforme vos jardins en véritables havres de paix. Que ce soit par la création de bassins décoratifs, de ruisseaux artificiels ou de fontaines élégantes, nous vous aidons à introduire l’élément eau dans vos espaces extérieurs pour plus de sérénité et d’esthétisme.</p>
-                <p>Chaque projet est conçu sur mesure, avec une attention particulière portée à l'intégration naturelle dans le paysage existant. Nous veillons à la qualité des installations, à leur durabilité, et à un entretien facile à long terme.</p>
-            </section>
-            <section id="realisation">
-  <h2>Réalisation du Jardin Aquatique</h2>
-  <p>La réalisation d’un jardin aquatique suit une méthodologie précise, qui débute par une étude du terrain et des besoins du client. Nous prenons en compte l’exposition, la pente, le type de sol et l’accès à l’eau afin de déterminer l’emplacement optimal du bassin ou des éléments d’eau.</p>
-  <p>Ensuite, nous procédons à l’excavation et à la mise en place des structures : bâche étanche, margelles, systèmes de filtration naturelle ou mécanique. Les plantations sont choisies avec soin pour garantir l’équilibre biologique du jardin, en mélangeant plantes oxygénantes, flottantes et de berges.</p>
-  <p>Nous assurons un suivi jusqu'à la mise en eau et restons disponibles pour l’entretien ou les ajustements. Le tout est pensé pour s'intégrer harmonieusement au reste de votre jardin et offrir une ambiance naturelle toute l’année.</p>
-            </section>
+            <h2>Informations sur l'Aménagement Aquatique</h2>
+            <p>Notre service d’aménagement aquatique transforme vos jardins en véritables havres de paix. Que ce soit par la création de bassins décoratifs, de ruisseaux artificiels ou de fontaines élégantes, nous vous aidons à introduire l’élément eau dans vos espaces extérieurs pour plus de sérénité et d’esthétisme.</p>
+            <p>Chaque projet est conçu sur mesure, avec une attention particulière portée à l'intégration naturelle dans le paysage existant. Nous veillons à la qualité des installations, à leur durabilité, et à un entretien facile à long terme.</p>
+        </section>
+        <section id="realisation">
+            <h2>Réalisation du Jardin Aquatique</h2>
+            <p>La réalisation d’un jardin aquatique suit une méthodologie précise, qui débute par une étude du terrain et des besoins du client. Nous prenons en compte l’exposition, la pente, le type de sol et l’accès à l’eau afin de déterminer l’emplacement optimal du bassin ou des éléments d’eau.</p>
+            <p>Ensuite, nous procédons à l’excavation et à la mise en place des structures : bâche étanche, margelles, systèmes de filtration naturelle ou mécanique. Les plantations sont choisies avec soin pour garantir l’équilibre biologique du jardin, en mélangeant plantes oxygénantes, flottantes et de berges.</p>
+            <p>Nous assurons un suivi jusqu'à la mise en eau et restons disponibles pour l’entretien ou les ajustements. Le tout est pensé pour s'intégrer harmonieusement au reste de votre jardin et offrir une ambiance naturelle toute l’année.</p>
         </section>
     </main>
+
     <footer>
         <section id="Contact">
           <h2>Contact</h2>
@@ -119,5 +117,5 @@
           </div>
         </section>
       </footer>
-    </body>
+</body>
 </html>
