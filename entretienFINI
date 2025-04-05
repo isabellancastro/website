@@ -1,74 +1,72 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head><!-- Fait par Isabella -->
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="entretienvegetaux.css">
     <title>Entretien des végétaux</title>
     <meta name="description" content="Entretien des végétaux de Lucas Jardins">
 
-    <!--Open Graph pour FB, IG, Linked et autres RS-->
+    <!-- Open Graph pour FB, IG, Linked et autres RS -->
     <meta property="og:title" content="Entretien des végétaux">
-    <meta propety="og:description" content="Jardin de Lucas propose plusieurs services donc celui de l'entretien des végétaux.">
+    <meta property="og:description" content="Jardin de Lucas propose plusieurs services, dont celui de l'entretien des végétaux.">
     <meta property="og:url" content="https://www.lucasjardins.fr/services/entretien-vegetaux">
     <meta property="og:image" content="URL_de_l'image_illustrative_de_entretien_vegetaux.jpg">
     <meta property="og:type" content="website">
     <meta name="author" content="Lucas Jardins">
 
-     <!-- Twitter Card -->
-     <meta name="twitter:title" content="Entretien des végétaux - haies, arbustes et arbres pour un jardin bien entretenu. Découvrez nos services spécialisés chez Lucas Jardins.">
-     <meta name="twitter:description" content="Découvrez nos conseils pour entretenir de manière fonctionnelle et esthétique vos potagers.">
-     <meta name="twitter:creator" content="@lucasjardins">
-     <meta name="twitter:site" content="@lucasjardins">
+    <!-- Twitter Card -->
+    <meta name="twitter:title" content="Entretien des végétaux - haies, arbustes et arbres pour un jardin bien entretenu. Découvrez nos services spécialisés chez Lucas Jardins.">
+    <meta name="twitter:description" content="Découvrez nos conseils pour entretenir de manière fonctionnelle et esthétique vos potagers.">
+    <meta name="twitter:creator" content="@lucasjardins">
+    <meta name="twitter:site" content="@lucasjardins">
 
-     <!--jSON Service Entretien des végétaux-->
-     <script type="application/ld+jason">
-        {
-            "@context": "https://schema.org",
-            "type": "Service",
-            "name": "Tailles Végétaux",
-            "description": "Service d'entretien et d'information des véggétaux accessible dans tout la région Alpes Maritimes.",
-            "provider": {
-                "@type": "Gardener",
-                "name": "Lucas Jardins",
-                "url": "https://www.lucasjardins.fr",
-                
-            "adress": {
-                "@type": "PostalAdress",
-                "StreetAdress": "102 Chemin du Génie",
+    <!-- JSON-LD Service Entretien des végétaux -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Tailles Végétaux",
+        "description": "Service d'entretien et d'information des végétaux accessible dans toute la région Alpes-Maritimes.",
+        "provider": {
+            "@type": "Gardener",
+            "name": "Lucas Jardins",
+            "url": "https://www.lucasjardins.fr",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "102 Chemin du Génie",
                 "postalCode": "06000",
                 "addressLocality": "Nice",
-                "adressRegion": "PACA",
-                "adressCountry": "FR"
-                }
+                "addressRegion": "PACA",
+                "addressCountry": "FR"
             }
-        
         }
+    }
     </script>
 </head>
 <body>
     <header>
-      <nav>
-        <h1>Lucas Jardins</h1>
-        <ul>
-          <li><a href="accueil.html">Accueil</a></li>
-          <li><a href="apropos.html">À propos</a></li>
-          <li><a href="services.html">Nos Services</a></li>   
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <h1>Lucas Jardins</h1>
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="services.html">Nos Services</a></li>   
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-      <section id="banniere">
-        <h1>Entretien des végétaux</h1>
-        <div class="image-container">
-        <img src="contenu/images/taille1.jpg" alt="un exemple de la taille des végétaux">
-        <img src="contenu/images/taille2.jpg" alt="un exemple de la taille des végétaux">
-        <img src="contenu/images/taille3.jpg" alt="un exemple de la taille des végétaux">
-        </div>
-    </section>
+        <section id="banniere">
+            <h1>Entretien des végétaux</h1>
+            <div class="image-container">
+                <img src="contenu/images/taille1.jpg" alt="un exemple de la taille des végétaux">
+                <img src="contenu/images/taille2.jpg" alt="un exemple de la taille des végétaux">
+                <img src="contenu/images/taille3.jpg" alt="un exemple de la taille des végétaux">
+            </div>
+        </section>
         <section id="description">
             <section id="information">
                 <h2>Pourquoi tailler ses végétaux ?</h2>
@@ -77,45 +75,47 @@
             <section id="fournisseurs">
                 <h2>Quand tailler ses végétaux ?</h2>
                 <p>Le moment idéal dépend de la plante. </p>
-                <p>Printem pour la plupart des arbustes, autumn pour les haies et hiver pour les arbres caducs </p>
-                </section>
+                <p>Printemps pour la plupart des arbustes, automne pour les haies et hiver pour les arbres caducs.</p>
+            </section>
         </section>
     </main>
+
     <footer>
         <section id="Contact">
-          <h2>Contact</h2>
-          <div class="footer-content">
-            <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
-            <div class="footer-info">
-              <ul class="social-links">
-                <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
-                <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
-              </ul>
-      
-              <div class="info-blocks">
-                <div class="info_container">
-                  <a href="tel:0788760571">07 88 76 05 71</a>
-                  <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+            <h2>Contact</h2>
+            <div class="footer-content">
+                <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
+                <div class="footer-info">
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+                    </ul>
+
+                    <div class="info-blocks">
+                        <div class="info_container">
+                            <a href="tel:0788760571">07 88 76 05 71</a>
+                            <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                        </div>
+                        <div class="info_container">
+                            <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                            <address>102 Chemin du Génie, 06000 Nice</address>
+                        </div>
+                    </div>
+
+                    <div class="credit">
+                        <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                        <ul>
+                            <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                            <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                            <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                            <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
+                            <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
+                            <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="info_container">
-                  <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
-                  <address>102 Chemin du Génie, 06000 Nice</address>
-                </div>
-              </div>
-      
-              <div class="credit">
-                <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
-                <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
-                <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
-                <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
-                <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
-                <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
-                <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
-                </ul>
-              </div>
             </div>
-          </div>
         </section>
-      </footer>
-    </body>
-    </html>
+    </footer>
+</body>
+</html>
