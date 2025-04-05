@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><!-- Fait par Fanny -->
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="creation.css">
+    <title> Créations</title>
+    <meta name="description" content="Créations">
+
+    <!--Open Graph pour FB, IG, Linked et autres RS-->
+    <meta property="og:title" content="Créations">
+    <meta propety="og:description" content="Jardin de Lucas propose plusieurs services donc celui des Créations.">
+    <meta property="og:url" content="https://www.lucasjardins.fr/services/creations">
+    <meta property="og:image" content="URL_de_l'image_illustrative_de_creations.jpg">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Lucas Jardins">
+
+     <!-- Twitter Card -->
+     <meta name="twitter:title" content="Créations - Prenez soin de créer et concevoir vos espaces verts">
+     <meta name="twitter:description" content="Découvrez nos conseils pour un bon aménagement des zones et différents espaces de votre jardin.">
+     <meta name="twitter:creator" content="@lucasjardins">
+     <meta name="twitter:site" content="@lucasjardins">
+
+     <!--jSON Service de la conception des terrasses-->
+     <script type="application/ld+jason">
+        {
+            "@context": "https://schema.org",
+            "type": "Service",
+            "name": "Créations",
+            "description": "Service de création accessible dans tout la région Alpes Maritimes.",
+            "provider": {
+                "@type": "Gardener",
+                "name": "Lucas Jardins",
+                "url": "https://www.lucasjardins.fr",
+            "adress": {
+                "@type": "PostalAdress",
+                "StreetAdress": "102 Chemin du Génie",
+                "postalCode": "06000",
+                "addressLocality": "Nice",
+                "adressRegion": "PACA",
+                "adressCountry": "FR"
+                }
+            }
+        
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Lucas Jardins</h1>
+        <ul>
+          <li><a href="accueil.html">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="services.html">Nos Services</a></li>   
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>  
+        <section id="banniere">
+        <h1>Création / Conception </h1>
+        <div class="image-container">
+        <img src="contenu/images/image.créations1.jpg" alt="un exemlpe de jardin entretenu">
+        <img src="contenu/images/image.création2.jpg" alt="un exemlpe de jardin entretenu">
+        <img src="contenu/images/image.création3.jpg" alt="un exemlpe de jardin entretenu">
+        <img src="contenu/images/image.création4.jpg" alt="un exemlpe de jardin entretenu">
+
+        </div>
+    </section>
+
+        <section id="description">
+            <section id="information">
+                <h2>Informations création et conception</h2>
+                <p>Nous sommes experts en création et conception de vos espaces verts. De l'aménagement judicieux des zones et différents espaces, aux choix des espèces, l'installation de l'arrosage, jusqu'a la plantation et l'entretien, nous intervenons et nous nous occupons de toutes les étapes</p>
+            </section>
+            <section id="Pourquoi nous appeler ?">
+                <h2>Pourquoi nous appeler ?</h2>
+                <p>Vous rêvez d’un extérieur à votre image, agréable à vivre et facile à entretenir ? Chez lucasjardins, nous mettons notre expertise au service de vos envies à travers trois domaines clés : la création, la conception et l’entretien de vos espaces verts.</p>
+                <p>Création sur mesure : nous imaginons des jardins et aménagements paysagers qui s’adaptent à vos goûts, à l’environnement et à votre mode de vie. Du petit coin détente au grand espace paysager, chaque détail compte.</p>
+                <p>Conception professionnelle : grâce à notre savoir-faire et à des outils de conception modernes, nous vous proposons des plans clairs, esthétiques et optimisés, pour un rendu final fidèle à vos attentes.</p>
+                <p>Entretien régulier ou ponctuel : tailles, tontes, traitements, nettoyage… Nous assurons l’entretien de vos extérieurs pour qu’ils restent beaux et sains toute l’année.</p>
+            </section>
+        </section>
+    </main>
+    <footer>
+
+        <footer>
+            <section id="Contact">
+              <h2>Contact</h2>
+              <div class="footer-content">
+                <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
+                <div class="footer-info">
+                  <ul class="social-links">
+                    <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+                  </ul>
+          
+                  <div class="info-blocks">
+                    <div class="info_container">
+                      <a href="tel:0788760571">07 88 76 05 71</a>
+                      <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                    </div>
+                    <div class="info_container">
+                      <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                      <address>102 Chemin du Génie, 06000 Nice</address>
+                    </div>
+                  </div>
+          
+                  <div class="credit">
+                    <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                    <ul>
+                      <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                      <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                      <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                      <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
+                      <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
+                      <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </footer>
+        </body>
+    </html>
+    
+    
