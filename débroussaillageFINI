@@ -1,126 +1,126 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head><!-- Page fait par Isabella-->
+<head><!-- Page faite par Isabella-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Débroussaillage</title>
     <link rel="stylesheet" href="debroussaillage.css">
 
-<!--Open Graph pour FB, IG, Linked et autres RS-->
-<meta property="og:title" content="Installations des Clotures">
-<meta propety="og:description" content="Jardin de Lucas propose plusieurs services donc celui de la conception des terrasses.">
-<meta property="og:url" content="https://www.lucasjardins.fr/services/installation-clotures">
-<meta property="og:image" content="URL_de_l'image_illustrative_de_terrasses.jpg">
-<meta property="og:type" content="website">
-<meta name="author" content="Lucas Jardins">
+    <!-- Open Graph pour FB, IG, LinkedIn et autres RS -->
+    <meta property="og:title" content="Installations de Clôtures">
+    <meta property="og:description" content="Jardin de Lucas propose plusieurs services, dont celui de la conception des terrasses.">
+    <meta property="og:url" content="https://www.lucasjardins.fr/services/installation-clotures">
+    <meta property="og:image" content="URL_de_l_image_illustrative_de_terrasses.jpg">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Lucas Jardins">
 
- <!-- Twitter Card -->
- <meta name="twitter:title" content="Débroussaillage de vos espaces par l'entreprise Lucas Jardins - Aménagez votre espace extérieur avec style">
- <meta name="twitter:description" content="Découvrez nos conseils pour des installations fonctionnelles et esthétiques pour vos espaces extérieurs.">
- <meta name="twitter:creator" content="@lucasjardins">
- <meta name="twitter:site" content="@lucasjardins">
+    <!-- Twitter Card -->
+    <meta name="twitter:title" content="Débroussaillage de vos espaces par l'entreprise Lucas Jardins - Aménagez votre espace extérieur avec style">
+    <meta name="twitter:description" content="Découvrez nos conseils pour des installations fonctionnelles et esthétiques pour vos espaces extérieurs.">
+    <meta name="twitter:creator" content="@lucasjardins">
+    <meta name="twitter:site" content="@lucasjardins">
 
- <!--jSON Service de débroussaillages-->
- <script type="application/ld+jason">
-    {
-        "@context": "https://schema.org",
-        "type": "Service",
-        "name": "Débroussaillage",
-        "description": "Service de débroussaillage professionnel accessible dans toute la région Alpes Maritimes.",
-        "provider": {
-            "@type": "Gardener",
-            "name": "Lucas Jardins",
-            "url": "https://www.lucasjardins.fr",
-            
-        "adress": {
-            "@type": "PostalAdress",
-            "StreetAdress": "102 Chemin du Génie",
-            "postalCode": "06000",
-            "addressLocality": "Nice",
-            "adressRegion": "PACA",
-            "adressCountry": "FR"
+    <!-- JSON-LD Service de débroussaillage -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Débroussaillage",
+            "description": "Service de débroussaillage professionnel accessible dans toute la région Alpes Maritimes.",
+            "provider": {
+                "@type": "Gardener",
+                "name": "Lucas Jardins",
+                "url": "https://www.lucasjardins.fr",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "102 Chemin du Génie",
+                    "postalCode": "06000",
+                    "addressLocality": "Nice",
+                    "addressRegion": "PACA",
+                    "addressCountry": "FR"
+                }
             }
         }
-    
-    }
-</script>
+    </script>
 </head>
 <body>
     <header>
         <nav>
-        <h1>Lucas Jardins</h1>
-        <ul>
-          <li><a href="accueil.html">Accueil</a></li>
-          <li><a href="apropos.html">À propos</a></li>
-          <li><a href="services.html">Nos Services</a></li>   
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-        </ul>
+            <h1>Lucas Jardins</h1>
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="services.html">Nos Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
         </nav>
     </header>
+
     <main>
         <section id="banniere">
             <h1>Débroussaillage</h1>
             <div class="image-container">
-            <img src="contenu/images/debrouissage 2.jpg" alt="Exemple de débroussaillage">
-            <img src="contenu/images/debrouissage1.jpg" alt="Terrain avant et après débroussaillage">
-            <img src="contenu/images/debrouissage3.jpg" alt="Matériel utilisé pour le débroussaillage">
-        </div>
+                <img src="contenu/images/debrouissage2.jpg" alt="Exemple de débroussaillage">
+                <img src="contenu/images/debrouissage1.jpg" alt="Terrain avant et après débroussaillage">
+                <img src="contenu/images/debrouissage3.jpg" alt="Matériel utilisé pour le débroussaillage">
+            </div>
         </section>
-    </header>
-    <main>
+
         <section id="description">
             <section id="information">
                 <h2>Pourquoi faire du débroussaillage ?</h2>
                 <p>Le débroussaillage est essentiel pour limiter les risques d’incendie, préserver la biodiversité et entretenir vos espaces verts. Il est également une obligation légale dans certaines zones.</p>
-            </div>
             </section>
+
             <section id="fournisseurs">
-            <h2>Nos services</h2>
-            <ul>
-                <p>Élimination des broussailles et végétation envahissante</p>
-                <p>Préparation du terrain pour de nouveaux aménagements</p>
-                <p>Nettoyage des terrains en friche</p>
-                <p>Respect des normes environnementales et légales</p>
-            </ul>
-        </section>  
+                <h2>Nos services</h2>
+                <ul>
+                    <li>Élimination des broussailles et végétation envahissante</li>
+                    <li>Préparation du terrain pour de nouveaux aménagements</li>
+                    <li>Nettoyage des terrains en friche</li>
+                    <li>Respect des normes environnementales et légales</li>
+                </ul>
+            </section>
+        </section>
     </main>
+
     <footer>
         <section id="Contact">
-          <h2>Contact</h2>
-          <div class="footer-content">
-            <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
-            <div class="footer-info">
-              <ul class="social-links">
-                <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
-                <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
-              </ul>
-      
-              <div class="info-blocks">
-                <div class="info_container">
-                  <a href="tel:0788760571">07 88 76 05 71</a>
-                  <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+            <h2>Contact</h2>
+            <div class="footer-content">
+                <img src="contenu/images/plancontact.jpg" alt="Exemple d'une terrasse rénovée">
+                <div class="footer-info">
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+                    </ul>
+
+                    <div class="info-blocks">
+                        <div class="info_container">
+                            <a href="tel:0788760571">07 88 76 05 71</a>
+                            <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                        </div>
+                        <div class="info_container">
+                            <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                            <address>102 Chemin du Génie, 06000 Nice</address>
+                        </div>
+                    </div>
+
+                    <div class="credit">
+                        <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                        <ul>
+                            <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                            <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                            <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                            <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
+                            <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
+                            <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="info_container">
-                  <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
-                  <address>102 Chemin du Génie, 06000 Nice</address>
-                </div>
-              </div>
-      
-              <div class="credit">
-                <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
-                <ul>
-                  <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
-                  <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
-                  <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
-                  <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
-                  <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
-                  <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
-                </ul>
-              </div>
             </div>
-          </div>
         </section>
-      </footer>
-    </body>
-</html> 
+    </footer>
+</body>
+</html>
