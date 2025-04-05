@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head> <!-- Page fait par Tânia & Maheva-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LucasJardins</title>
+    <meta name="description" content="Site vitrine d'un professionnel qui propose diverses services dans le monde du jardinnage.">
+    <link rel="stylesheet" href="apropos.css">
+
+       <!-- Open Graph pour FB, IG, Linkedin et autres RS-->
+       <meta property="og:title" content="LucasJardins">
+       <meta property="og:description" content="Lucas Jardin est un professionnel dans toute la région des Alpes Maritines">
+       <meta property="og:url" content="https://www.lucasjardins.fr/apropos">
+       <meta property="og:type" content="profile">
+
+  
+      <!-- Twitter cards-->
+      <meta name="twitter:title" content="Lucas Jardin est un professionnel dans toute la région des Alpes Maritines">
+      <meta name="twitter:description" content="Site vitrine d'un professionnel qui propose diverses services dans le monde du jardinnage.">
+      <meta name="twitter:card" content="summary_large_image"> <!-- Aperçu avec grande image -->
+      <meta name="twitter:image" content="https://www.lucasjardins.fr/images/lucasjardins.webp"> <!-- URL permettant d'accéder à l'image -->
+      <meta name="twitter:creator" content="@lucasjardins06">
+      <meta name="twitter:site" content="@lucasjardins">
+</head>
+<script type="application/ld+jason">
+  {
+      "@context": "https://lucas-jardin.fr",
+      "@type": "Organization",
+      "name" : "Lucas Jardin",
+      "url" : "https://lucas-jardin.fr",
+     "description": "L'entreprise Lucas Jardin propose plusiers services de jardinanage sur la Côte d'Azur.",
+     "address": {
+          "@type": "Postaladress",
+          "streetAdress": "102 Chemin du Génie",
+          "postalCode": "06000",
+          "adressLocality": "Nice",
+          "adressRegion": "Provence-Alpes-Côte-Azur",
+          "adressCountry": "FR"
+     },
+  }
+  </script>
+<body>
+    <header>
+            <nav>
+                <h1>Lucas Jardins</h1>
+              <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="services.html">Nos Services</a></li>   
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+              </ul>
+            </nav>
+    </header> 
+    <main>
+        <section id="Equipe">
+            <div class="bloc1">
+            <h1>Qui sommes nous? </h1>
+            <h2>Alors...</h2>
+            <p>Lucas Jardins est une entreprise spécialisée dans l’aménagement et l’entretien de jardins. Passionnés par la nature et les espaces verts, nous offrons une large gamme de services pour transformer, entretenir et embellir vos extérieurs. Que vous ayez besoin de conseils en aménagement paysager, de services de jardinage réguliers ou de solutions spécifiques comme l’installation de systèmes de drainage, nous nous engageons à apporter des solutions sur mesure, adaptées à vos besoins.
+
+                Notre équipe de professionnels qualifiés combine expertise et créativité pour offrir des espaces extérieurs fonctionnels et esthétiques. Chez Lucas Jardins, nous privilégions la qualité, le respect de l’environnement et la satisfaction de nos clients, et nous mettons tout en œuvre pour faire de vos jardins un véritable lieu de détente et de beauté.
+                
+                Découvrez nos services et laissez-nous vous accompagner dans la réalisation de vos projets d’aménagement extérieur !</p>
+            <img src="contenu/images/equipe.jpg" alt="jadrniers qui travaillent ensemble">
+            </div>
+        </section>
+    </main>
+</body>
+    <footer>
+        <section id="Contact">
+          <h2>Contact</h2>
+          <div class="footer-content">
+            <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
+            <div class="footer-info">
+              <ul class="social-links">
+                <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+              </ul>
+      
+              <div class="info-blocks">
+                <div class="info_container">
+                  <a href="tel:0788760571">07 88 76 05 71</a>
+                  <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                </div>
+                <div class="info_container">
+                  <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                  <address>102 Chemin du Génie, 06000 Nice</address>
+                </div>
+              </div>
+      
+              <div class="credit">
+                <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                <ul>
+<li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+              <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+              <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+              <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
+              <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
+              <li><a href="team/laurette">6th person</a>Laurette</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </body>
+</html>
