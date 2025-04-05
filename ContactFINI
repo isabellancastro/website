@@ -26,7 +26,7 @@
       "@context": "https://scehema.org",
       "@type": "LocalBussiness",
       "name": "Lucas Jardins",
-      "description": "Mario Bross est une entreprise fournit tout tu=ype de services dans le jardinage ",
+      "description": "Lucas Jardin est une entreprise fournit tout type de services dans le jardinage",
       "ursl": "https://lucas-jardins.fr",
       "address": {
           "@type": "PostalAddresse",
