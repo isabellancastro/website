@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conceptionterrasse.css">
+    <title> Aménagements Aquatiques</title>
+    <meta name="description" content="Aménagements Aquatiques de Lucas Jardins">
+
+    <!--Open Graph pour FB, IG, Linked et autres RS-->
+    <meta property="og:title" content="Aménagements Aquatiques">
+    <meta property="og:description" content="Lucas Jardins propose plusieurs services dont celui de l’aménagement aquatique pour sublimer vos extérieurs.">
+    <meta property="og:url" content="https://www.lucasjardins.fr/services/amenagement-aquatique">
+    <meta property="og:image" content="URL_de_l'image_illustrative_aquatique.jpg">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Lucas Jardins">
+
+     <!-- Twitter Card -->
+     <meta name="twitter:title" content="Aménagement Aquatique - Donnez vie à vos extérieurs avec l'eau">
+     <meta name="twitter:description" content="Découvrez nos solutions pour intégrer des éléments aquatiques dans votre jardin : bassins, fontaines, ruisseaux et plus.">
+     <meta name="twitter:creator" content="@lucasjardins">
+     <meta name="twitter:site" content="@lucasjardins">
+
+     <!--jSON Service de l’aménagement aquatique-->
+     <script type="application/ld+jason">
+        {
+            "@context": "https://schema.org",
+            "type": "Service",
+            "name": "Aménagement aquatique",
+            "description": "Service d’aménagement aquatique professionnel, disponible dans toute la région des Alpes-Maritimes.",
+            "provider": {
+                "@type": "Gardener",
+                "name": "Lucas Jardins",
+                "url": "https://www.lucasjardins.fr",
+                "adress": {
+                    "@type": "PostalAdress",
+                    "StreetAdress": "102 Chemin du Génie",
+                    "postalCode": "06000",
+                    "addressLocality": "Nice",
+                    "adressRegion": "PACA",
+                    "adressCountry": "FR"
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+      <nav>
+        <h1>Lucas Jardins</h1>
+        <ul>
+            <li><a href="#Accueil">Accueil</a></li>
+            <li><a href="#Apropos">A propos</a></li>
+            <li><a href="#Nosservices">Nos Services</a></li>   
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#FAQ">FAQ</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+      <section id="banniere">
+        <h1>Aménagement Aquatique</h1>
+        <div class="image-container">
+        <img src="contenu/images/aquatique1.jpg" alt="exemple d'aménagement aquatique">
+        <img src="contenu/images/aquatique2.jpg" alt="exemple d'aménagement aquatique">
+        <img src="contenu/images/aquatique3.jpg" alt="exemple d'aménagement aquatique">
+        <img src="contenu/images/aquatique4.jpg" alt="exemple d'aménagement aquatique">
+        <img src="contenu/images/aquatique5.jpg" alt="exemple d'aménagement aquatique">
+        </div>
+    </section>
+        <section id="description">
+            <section id="information">
+                <h2>Informations Aménagement Aquatique</h2>
+                <p>Notre service d’aménagement aquatique transforme vos jardins en véritables havres de paix. Que ce soit par la création de bassins décoratifs, de ruisseaux artificiels ou de fontaines élégantes, nous vous aidons à introduire l’élément eau dans vos espaces extérieurs pour plus de sérénité et d’esthétisme.</p>
+                <p>Chaque projet est conçu sur mesure, avec une attention particulière portée à l'intégration naturelle dans le paysage existant. Nous veillons à la qualité des installations, à leur durabilité, et à un entretien facile à long terme.</p>
+            </section>
+            <section id="realisation">
+  <h2>Réalisation du Jardin Aquatique</h2>
+  <p>La réalisation d’un jardin aquatique suit une méthodologie précise, qui débute par une étude du terrain et des besoins du client. Nous prenons en compte l’exposition, la pente, le type de sol et l’accès à l’eau afin de déterminer l’emplacement optimal du bassin ou des éléments d’eau.</p>
+  <p>Ensuite, nous procédons à l’excavation et à la mise en place des structures : bâche étanche, margelles, systèmes de filtration naturelle ou mécanique. Les plantations sont choisies avec soin pour garantir l’équilibre biologique du jardin, en mélangeant plantes oxygénantes, flottantes et de berges.</p>
+  <p>Nous assurons un suivi jusqu'à la mise en eau et restons disponibles pour l’entretien ou les ajustements. Le tout est pensé pour s'intégrer harmonieusement au reste de votre jardin et offrir une ambiance naturelle toute l’année.</p>
+            </section>
+/section>
+    </main>
+    <footer>
+        <section id="Contact">
+          <h2>Contact</h2>
+          <div class="footer-content">
+            <img src="contenu/images/plancontact.jpg" alt="un exemple d'aménagement aquatique">
+            <div class="footer-info">
+              <ul class="social-links">
+                <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+              </ul>
+      
+              <div class="info-blocks">
+                <div class="info_container">
+                  <a href="tel:0788760571">07 88 76 05 71</a>
+                  <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                </div>
+                <div class="info_container">
+                  <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                  <address>102 Chemin du Génie, 06000 Nice</address>
+                </div>
+              </div>
+      
+              <div class="credit">
+                <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                <ul>
+                  <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                  <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                  <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                  <li><a href="#">5th person</a></li>
+                  <li><a href="#">6th person</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </body>
+</html>
