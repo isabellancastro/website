@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="plantation.css">
     <title> Plantations</title>
@@ -9,39 +9,38 @@
 
     <!--Open Graph pour FB, IG, Linked et autres RS-->
     <meta property="og:title" content="Plantations">
-    <meta propety="og:description" content="Jardin de Lucas propose plusieurs services donc celui de la plantation.">
+    <meta property="og:description" content="Jardin de Lucas propose plusieurs services, dont celui de la plantation.">
     <meta property="og:url" content="https://www.lucasjardins.fr/services/plantation">
-    <meta property="og:image" content="URL_de_l'image_illustrative_de_terrasses.jpg">
+    <meta property="og:image" content="URL_de_l'image_illustrative_de_plantation.jpg">
     <meta property="og:type" content="website">
     <meta name="author" content="Lucas Jardins">
 
-     <!-- Twitter Card -->
-     <meta name="twitter:title" content="Plantations - Aménagez votre espace extérieur avec style">
-     <meta name="twitter:description" content="Découvrez nos conseils pour créer des espaces verts harmonieux et florissants.">
-     <meta name="twitter:creator" content="@lucasjardins">
-     <meta name="twitter:site" content="@lucasjardins">
+    <!-- Twitter Card -->
+    <meta name="twitter:title" content="Plantations - Aménagez votre espace extérieur avec style">
+    <meta name="twitter:description" content="Découvrez nos conseils pour créer des espaces verts harmonieux et florissants.">
+    <meta name="twitter:creator" content="@lucasjardins">
+    <meta name="twitter:site" content="@lucasjardins">
 
-     <!--jSON Service de la plantation-->
-     <script type="application/ld+jason">
+    <!-- JSON-LD Service de la plantation -->
+    <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "type": "Service",
+            "@type": "Service",
             "name": "Plantation",
-            "description": "Service de plantation professionnel accessible dans tout la région Alpes Maritimes.",
+            "description": "Service de plantation professionnel accessible dans toute la région Alpes Maritimes.",
             "provider": {
                 "@type": "Gardener",
                 "name": "Lucas Jardins",
-                "url": "https://www.lucasjardins.fr",
-            "adress": {
-                "@type": "PostalAdress",
-                "StreetAdress": "102 Chemin du Génie",
+                "url": "https://www.lucasjardins.fr"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "102 Chemin du Génie",
                 "postalCode": "06000",
                 "addressLocality": "Nice",
-                "adressRegion": "PACA",
-                "adressCountry": "FR"
-                }
+                "addressRegion": "PACA",
+                "addressCountry": "FR"
             }
-        
         }
     </script>
 </head>
@@ -58,15 +57,16 @@
             </ul>
         </nav>
     </header>  
+
     <main>
         <section id="banniere">
-        <h1>Plantation</h1>
-        <div class="image-container">
-        <img src="contenu/images/plantation_fleurs.jpg" alt="un exemlpe de plantation 1">
-        <img src="contenu/images/plantation_arbre.jpg" alt="un exemlpe de plantation 2">
-        <img src="contenu/images/plantation_arbuste.jpg" alt="un exemlpe de plantation 3">
-        <img src="contenu/images/plantationjardin.jpg" alt="un exemlpe de plantation 4">  
-        </div>
+            <h1>Plantation</h1>
+            <div class="image-container">
+                <img src="contenu/images/plantation_fleurs.jpg" alt="un exemple de plantation 1">
+                <img src="contenu/images/plantation_arbre.jpg" alt="un exemple de plantation 2">
+                <img src="contenu/images/plantation_arbuste.jpg" alt="un exemple de plantation 3">
+                <img src="contenu/images/plantationjardin.jpg" alt="un exemple de plantation 4">  
+            </div>
         </section>
 
         <section id="description">
@@ -74,48 +74,50 @@
                 <h2>Informations plantation</h2>
                 <p>Nous sommes experts en plantation et aménagement végétal, offrant des solutions adaptées à vos besoins. Que ce soit pour la création d’un jardin, l’aménagement de massifs ou la plantation d’arbres et arbustes, nous vous accompagnons pour transformer votre espace extérieur en un véritable écrin de verdure.</p>
             </section>
+
             <section id="fournisseurs">
                 <h2>Fournisseurs</h2>
                 <p>Nos fournisseurs jouent un rôle clé dans la réussite de chaque projet de plantation. Ils nous fournissent non seulement des végétaux de qualité (arbres, arbustes, fleurs, etc.), mais aussi des équipements et substrats adaptés pour garantir une croissance optimale. Ces partenariats nous permettent de proposer des solutions variées et personnalisées, adaptées aux besoins spécifiques de chaque espace vert.</p>
                 <p>L’entreprise sélectionne ses fournisseurs avec soin, en privilégiant ceux qui offrent des végétaux de haute qualité, respectent les délais et adoptent des pratiques respectueuses de l’environnement. Grâce à cette collaboration, chaque projet de plantation est réalisé dans les meilleures conditions, garantissant une croissance optimale des plantes et un aménagement paysager durable et harmonieux.</p>
-                </section>
+            </section>
         </section>
     </main>
+
     <footer>
         <section id="Contact">
-          <h2>Contact</h2>
-          <div class="footer-content">
-            <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
-            <div class="footer-info">
-              <ul class="social-links">
-                <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
-                <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
-              </ul>
-      
-              <div class="info-blocks">
-                <div class="info_container">
-                  <a href="tel:0788760571">07 88 76 05 71</a>
-                  <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+            <h2>Contact</h2>
+            <div class="footer-content">
+                <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
+                <div class="footer-info">
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+                    </ul>
+
+                    <div class="info-blocks">
+                        <div class="info_container">
+                            <a href="tel:0788760571">07 88 76 05 71</a>
+                            <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                        </div>
+                        <div class="info_container">
+                            <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                            <address>102 Chemin du Génie, 06000 Nice</address>
+                        </div>
+                    </div>
+
+                    <div class="credit">
+                        <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                        <ul>
+                            <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                            <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                            <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                            <li><a href="#">5th person</a></li>
+                            <li><a href="#">6th person</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="info_container">
-                  <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
-                  <address>102 Chemin du Génie, 06000 Nice</address>
-                </div>
-              </div>
-      
-              <div class="credit">
-                <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
-                <ul>
-                  <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
-                  <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
-                  <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
-                  <li><a href="#">5th person</a></li>
-                  <li><a href="#">6th person</a></li>
-                </ul>
-              </div>
             </div>
-          </div>
         </section>
-      </footer>
-    </body>
-    </html>
+    </footer>
+</body>
+</html>
