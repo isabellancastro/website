@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conceptionterrasse.css">
+    <title> Aménagement Jardin Sec</title>
+    <meta name="description" content="Aménagement de jardin sec par Lucas Jardins, spécialiste en jardin durable et esthétique.">
+
+    <!--Open Graph pour FB, IG, Linked et autres RS-->
+    <meta property="og:title" content="Aménagement Jardin Sec">
+    <meta property="og:description" content="Lucas Jardins vous propose un service d’aménagement de jardin sec, durable, économique et élégant.">
+    <meta property="og:url" content="https://www.lucasjardins.fr/services/amenagement-jardin-sec">
+    <meta property="og:image" content="URL_de_l'image_illustrative_jardin_sec.jpg">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Lucas Jardins">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:title" content="Aménagement de Jardin Sec - Un jardin esthétique et sans arrosage">
+    <meta name="twitter:description" content="Créez un jardin sec durable avec Lucas Jardins. Une alternative esthétique et écologique.">
+    <meta name="twitter:creator" content="@lucasjardins">
+    <meta name="twitter:site" content="@lucasjardins">
+
+    <!--jSON Service de l’aménagement jardin sec-->
+    <script type="application/ld+jason">
+        {
+            "@context": "https://schema.org",
+            "type": "Service",
+            "name": "Aménagement jardin sec",
+            "description": "Service d’aménagement de jardins secs, idéals pour les climats chauds, sans arrosage intensif, avec un rendu naturel et décoratif.",
+            "provider": {
+                "@type": "Gardener",
+                "name": "Lucas Jardins",
+                "url": "https://www.lucasjardins.fr",
+                "adress": {
+                    "@type": "PostalAdress",
+                    "StreetAdress": "102 Chemin du Génie",
+                    "postalCode": "06000",
+                    "addressLocality": "Nice",
+                    "adressRegion": "PACA",
+                    "adressCountry": "FR"
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Lucas Jardins</h1>
+            <ul>
+                <li><a href="#Accueil">Accueil</a></li>
+                <li><a href="#Apropos">A propos</a></li>
+                <li><a href="#Nosservices">Nos Services</a></li>   
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#FAQ">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banniere">
+            <h1>Aménagement Jardin Sec</h1>
+            <div class="image-container">
+                <img src="contenu/images/jardinsec1.jpg" alt="exemple de jardin sec aménagé">
+                <img src="contenu/images/jardinsec2.jpg" alt="exemple de jardin sec avec pierres décoratives">
+                <img src="contenu/images/jardinsec3.jpg" alt="vue d'ensemble d'un jardin sec moderne">
+                <img src="contenu/images/jardinsec4.jpg" alt="jardin sec fleuri et sans entretien">
+                <img src="contenu/images/jardinsec5.jpg" alt="détails d'un jardin sec et écologique">
+            </div>
+        </section>
+
+        <section id="description">
+            <section id="information">
+                <h2>Informations sur le Jardin Sec</h2>
+                <p>L’aménagement d’un jardin sec consiste à créer un espace esthétique, économique en eau et facile d’entretien, en utilisant des plantes adaptées à la sécheresse (plantes méditerranéennes, cactus, graminées, etc.), des matériaux minéraux (graviers, galets, roches), et un agencement harmonieux et naturel.</p>
+                <p>Ce type de jardin est idéal pour les régions ensoleillées et permet de réduire significativement les besoins en arrosage, tout en gardant une grande richesse visuelle. Il reflète une volonté de durabilité et de respect de l’environnement.</p>
+            </section>
+
+            <section id="realisation">
+                <h2>Réalisation du Jardin Sec</h2>
+                <p>Notre équipe étudie avec vous la topographie de votre terrain, la nature du sol et l’exposition au soleil. Nous sélectionnons des plantes robustes, résistantes à la sécheresse, et nous concevons un agencement paysager qui joue sur les formes, les textures et les couleurs minérales et végétales.</p>
+                <p>Nous utilisons des techniques de paillage minéral pour limiter l’évaporation, et mettons en place des bordures, sentiers ou rocailles pour structurer l’espace. Chaque réalisation est unique et pensée pour allier beauté naturelle et fonctionnalité durable.</p>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <div class="footer-content">
+                <img src="contenu/images/plancontact.jpg" alt="plan d'accès au jardin sec">
+                <div class="footer-info">
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+                    </ul>
+        
+                    <div class="info-blocks">
+                        <div class="info_container">
+                            <a href="tel:0788760571">07 88 76 05 71</a>
+                            <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                        </div>
+                        <div class="info_container">
+                            <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                            <address>102 Chemin du Génie, 06000 Nice</address>
+                        </div>
+                    </div>
+        
+                    <div class="credit">
+                        <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                        <ul>
+                            <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                            <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                            <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                            <li><a href="#">5th person</a></li>
+                            <li><a href="#">6th person</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
