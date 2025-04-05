@@ -1,7 +1,7 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head> <!-- Fait par Fanny -->
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="arrosage.css">
     <title> Systèmes d'arrosage</title>
@@ -9,7 +9,7 @@
 
     <!--Open Graph pour FB, IG, Linked et autres RS-->
     <meta property="og:title" content="Systèmes d'arrosage">
-    <meta propety="og:description" content="Jardin de Lucas propose plusieurs services donc celui des systèmes d'arrosage.">
+    <meta property="og:description" content="Jardin de Lucas propose plusieurs services donc celui des systèmes d'arrosage.">
     <meta property="og:url" content="https://www.lucasjardins.fr/services/arrosage">
     <meta property="og:image" content="URL_de_l'image_illustrative_arrosages.jpg">
     <meta property="og:type" content="website">
@@ -17,12 +17,12 @@
 
      <!-- Twitter Card -->
      <meta name="twitter:title" content="Arrosage - Prenez soin de votre verdure">
-     <meta name="twitter:description" content="Découvrez nos conseils pour autonomisé l'arrosage de votre jardin.">
+     <meta name="twitter:description" content="Découvrez nos conseils pour autonomiser l'arrosage de votre jardin.">
      <meta name="twitter:creator" content="@lucasjardins">
      <meta name="twitter:site" content="@lucasjardins">
 
      <!--jSON Service du système d'arrosage-->
-     <script type="application/ld+jason">
+     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "type": "Service",
@@ -32,16 +32,15 @@
                 "@type": "Gardener",
                 "name": "Lucas Jardins",
                 "url": "https://www.lucasjardins.fr",
-            "adress": {
-                "@type": "PostalAdress",
-                "StreetAdress": "102 Chemin du Génie",
-                "postalCode": "06000",
-                "addressLocality": "Nice",
-                "adressRegion": "PACA",
-                "adressCountry": "FR"
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "102 Chemin du Génie",
+                    "postalCode": "06000",
+                    "addressLocality": "Nice",
+                    "addressRegion": "PACA",
+                    "addressCountry": "FR"
                 }
             }
-        
         }
     </script>
 </head>
@@ -60,23 +59,25 @@
     </header>
     <main>
         <section id="banniere">
-        <h1>Systèmes d'arrosage</h1>
-        <div class="image-container">
-        <img src="contenu/images/image.arrosage.1.jpg" alt="un exemlpe d'un système d'arrosage">
-        <img src="contenu/images/image.arrosage.2.jpg" alt="un exemlpe d'un système d'arrosage">
-        <img src="contenu/images/image.arrosage.3.jpg" alt="un exemlpe d'un système d'arrosage">
-        <img src="contenu/images/image.arrosage.4.jpg" alt="un exemlpe d'un système d'arrosage">
-        </div>
+            <h1>Systèmes d'arrosage</h1>
+            <div class="image-container">
+                <img src="contenu/images/image.arrosage.1.jpg" alt="un exemple d'un système d'arrosage">
+                <img src="contenu/images/image.arrosage.2.jpg" alt="un exemple d'un système d'arrosage">
+                <img src="contenu/images/image.arrosage.3.jpg" alt="un exemple d'un système d'arrosage">
+                <img src="contenu/images/image.arrosage.4.jpg" alt="un exemple d'un système d'arrosage">
+            </div>
+        </section>
     
         <section id="description">
-           <section id="information">
+            <section id="information">
                 <h2>Informations systèmes d'arrosage</h2>
                 <p>Nous sommes experts en système d'arrosage, offrant des solutions adaptées à vos besoins. Que ce soit pour un entretien totalement autonome de vos plantations, ou pour l'installation de nouveaux tuyaux d'arrosage.</p>
             </section>
-            <section id="Pourquoi nous appeler ?">
+            
+            <section id="Pourquoi-nous-appeler">
                 <h2>Pourquoi nous appeler ?</h2>
-                <p>nous sommes spécialisés dans la mise en place de systèmes d’arrosage intelligents, économiques et durables. Que vous soyez un particulier, une entreprise ou une collectivité, notre objectif est simple : vous faire gagner du temps, économiser de l’eau, et garantir la santé de vos espaces verts toute l’année</p>
-                <p>Des solutions sur mesure: chaque jardin ou espace extérieur est unique. Nous concevons un système adapté à vos besoins, à votre terrain, et à votre mode de vie.</p>
+                <p>Nous sommes spécialisés dans la mise en place de systèmes d’arrosage intelligents, économiques et durables. Que vous soyez un particulier, une entreprise ou une collectivité, notre objectif est simple : vous faire gagner du temps, économiser de l’eau, et garantir la santé de vos espaces verts toute l’année.</p>
+                <p>Des solutions sur mesure : chaque jardin ou espace extérieur est unique. Nous concevons un système adapté à vos besoins, à votre terrain, et à votre mode de vie.</p>
                 <p>Économie d’eau : grâce à des capteurs et programmateurs performants, notre technologie optimise chaque goutte utilisée. Fini le gaspillage !</p>
                 <p>Simplicité et tranquillité : plus besoin d’y penser. Vous pouvez partir en vacances l’esprit tranquille : votre système s’occupe de tout.</p>
                 <p>Installation rapide et accompagnement personnalisé : de la conception à l’entretien, nous restons à vos côtés à chaque étape.</p>
@@ -85,41 +86,40 @@
     </main>
     <footer>
         <section id="Contact">
-          <h2>Contact</h2>
-          <div class="footer-content">
-            <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
-            <div class="footer-info">
-              <ul class="social-links">
-                <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
-                <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
-              </ul>
-      
-              <div class="info-blocks">
-                <div class="info_container">
-                  <a href="tel:0788760571">07 88 76 05 71</a>
-                  <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
-                </div>
-                <div class="info_container">
-                  <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
-                  <address>102 Chemin du Génie, 06000 Nice</address>
-                </div>
-              </div>
-      
-              <div class="credit">
-                <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
-                <ul>
-                  <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
-                  <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
-                  <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
-                  <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
-                  <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
-                  <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-      </footer>
-    </body>
-</html>
+            <h2>Contact</h2>
+            <div class="footer-content">
+                <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
+                <div class="footer-info">
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+                    </ul>
 
+                    <div class="info-blocks">
+                        <div class="info_container">
+                            <a href="tel:0788760571">07 88 76 05 71</a>
+                            <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                        </div>
+                        <div class="info_container">
+                            <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                            <address>102 Chemin du Génie, 06000 Nice</address>
+                        </div>
+                    </div>
+
+                    <div class="credit">
+                        <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                        <ul>
+                            <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                            <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                            <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                            <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
+                            <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
+                            <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
