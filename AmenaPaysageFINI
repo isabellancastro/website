@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head><!-- Fait par Laurette -->
-    <meta charset="UFT-8">
+<head>
+    <!-- Fait par Laurette -->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="amenagementpaysage.css">
-    <title> Aménagement Paysager</title>
+    <title>Aménagement Paysager</title>
     <meta name="description" content="Service d’aménagement paysager par Lucas Jardins, création de jardins harmonieux et personnalisés.">
 
-    <!--Open Graph pour RS-->
+    <!-- Open Graph pour réseaux sociaux -->
     <meta property="og:title" content="Aménagement Paysager">
     <meta property="og:description" content="Lucas Jardins vous accompagne dans la création de jardins sur mesure grâce à son expertise en aménagement paysager.">
     <meta property="og:url" content="https://www.lucasjardins.fr/services/amenagement-paysager">
@@ -22,23 +23,23 @@
     <meta name="twitter:site" content="@lucasjardins">
 
     <!-- JSON-LD -->
-    <script type="application/ld+jason">
+    <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "type": "Service",
+            "@type": "Service",
             "name": "Aménagement paysager",
             "description": "Service de conception et de réalisation d’aménagements paysagers, pour créer des jardins personnalisés, esthétiques et fonctionnels.",
             "provider": {
                 "@type": "Gardener",
                 "name": "Lucas Jardins",
                 "url": "https://www.lucasjardins.fr",
-                "adress": {
-                    "@type": "PostalAdress",
-                    "StreetAdress": "102 Chemin du Génie",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "102 Chemin du Génie",
                     "postalCode": "06000",
                     "addressLocality": "Nice",
-                    "adressRegion": "PACA",
-                    "adressCountry": "FR"
+                    "addressRegion": "PACA",
+                    "addressCountry": "FR"
                 }
             }
         }
@@ -51,7 +52,7 @@
             <ul>
                 <li><a href="accueil.html">Accueil</a></li>
                 <li><a href="apropos.html">À propos</a></li>
-                <li><a href="services.html">Nos Services</a></li>   
+                <li><a href="services.html">Nos Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="faq.html">FAQ</a></li>
             </ul>
@@ -62,9 +63,9 @@
         <section id="banniere">
             <h1>Aménagement Paysager</h1>
             <div class="image-container">
-                <img src="contenu/images/paysage1.jpg" alt="exemple d’un jardin paysager moderne">
-                <img src="contenu/images/paysage2.jpg" alt="vue d’ensemble d’un espace paysager">
-                <img src="contenu/images/paysage3.jpg" alt="aménagement végétal structuré">
+                <img src="contenu/images/paysage1.jpg" alt="Exemple d’un jardin paysager moderne">
+                <img src="contenu/images/paysage2.jpg" alt="Vue d’ensemble d’un espace paysager">
+                <img src="contenu/images/paysage3.jpg" alt="Aménagement végétal structuré">
             </div>
         </section>
 
@@ -87,24 +88,24 @@
         <section id="Contact">
             <h2>Contact</h2>
             <div class="footer-content">
-                <img src="contenu/images/plancontact.jpg" alt="plan d'accès Lucas Jardins">
+                <img src="contenu/images/plancontact.jpg" alt="Plan d'accès Lucas Jardins">
                 <div class="footer-info">
                     <ul class="social-links">
                         <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
                         <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
                     </ul>
-        
+
                     <div class="info-blocks">
                         <div class="info_container">
                             <a href="tel:0788760571">07 88 76 05 71</a>
-                            <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                            <p>Horaires : du lundi au vendredi, de 8h00 à 18h00</p>
                         </div>
                         <div class="info_container">
                             <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
                             <address>102 Chemin du Génie, 06000 Nice</address>
                         </div>
                     </div>
-        
+
                     <div class="credit">
                         <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
                         <ul>
