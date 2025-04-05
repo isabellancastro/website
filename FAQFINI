@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><!-- Page fait par Lyne & Tânia-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | LucasJardins</title>
+    <meta name="description" content="Site vitrine d'un professionnel qui propose diverses services dans le monde du jardinnage.">
+    <link rel="stylesheet" href="contenu/css/faq.css">
+    <meta name="description" content="Site vitrine d'un professionnel qui propose diverses services dans le monde du jardinnage.">
+         <!-- Open Graph pour FB, IG, Linkedin et autres RS-->
+         <meta property="og:title" content="LucasJardins">
+         <meta property="og:description" content="Lucas Jardin est un professionnel dans toute la région des Alpes Maritines">
+         <meta property="og:url" content="https://www.lucasjardins.fr/faq">
+         <meta property="og:type" content="profile">
+  
+    
+        <!-- Twitter cards-->
+        <meta name="twitter:title" content="Lucas Jardin est un professionnel dans toute la région des Alpes Maritines">
+        <meta name="twitter:description" content="Site vitrine d'un professionnel qui propose diverses services dans le monde du jardinnage.">
+        <meta name="twitter:card" content="summary_large_image"> <!-- Aperçu avec grande image -->
+        <meta name="twitter:image" content="https://www.lucasjardins.fr/images/lucasjardins.webp"> <!-- URL permettant d'accéder à l'image -->
+        <meta name="twitter:creator" content="@lucasjardins06">
+        <meta name="twitter:site" content="@lucasjardins">
+
+
+    <script type="application/ld+jason">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Quels services propose Lucas Jardins ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Lucas Jardins offre des services de création et d’entretien de jardins, de systèmes d’arrosage, de plantations, d’élagage, de taille de végétaux et de débroussaillage.
+            }
+
+        },
+        {
+            "@type": "Question",
+            "name": "Intervenez-vous pour les particuliers et les professionnels ?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui, nous travaillons aussi bien pour les particuliers que pour les entreprises et collectivités."
+            }  
+            
+        }
+        {
+          "@type": "Question",
+          "name": "Dans quelles zones géographiques intervenez-vous ?",
+          "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nous intervenons principalement dans le département des Alpes Maritimes."
+          }
+
+      },
+      {
+        "@type": "Question",
+        "name": "Proposez-vous des devis gratuits ?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, nous réalisons des devis gratuits et personnalisés après une première prise de contact."
+        }
+
+    },
+        
+    ]
+}
+
+</script>
+</head>
+<body>
+<body class="service-page">
+    <header class="service-header">
+        <h1>FAQ</h1>
+        <nav>
+            <ul>
+              <li><a href="accueil.html">Accueil</a></li>
+              <li><a href="apropos.html">À propos</a></li>
+              <li><a href="services.html">Nos Services</a></li>   
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <body>
+        <div class="container">
+            <h1>Foire aux Questions</h1>
+            
+            <div class="faq-item">
+                <div class="question">Quels services propose Lucas Jardins ?</div>
+                <div class="answer">Lucas Jardins offre des services de création et d’entretien de jardins, de systèmes d’arrosage, de plantations, d’élagage, de taille de végétaux et de débroussaillage.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">Intervenez-vous pour les particuliers et les professionnels ?</div>
+                <div class="answer">Oui, nous travaillons aussi bien pour les particuliers que pour les entreprises et collectivités.</div>
+            </div>
+    
+            <div class="faq-item">
+                <div class="question">Dans quelles zones géographiques intervenez-vous ?</div>
+                <div class="answer">Nous intervenons principalement dans le département des Alpes Maritimes.</div>
+            </div>
+    
+            <div class="faq-item">
+                <div class="question">Proposez-vous des devis gratuits ?</div>
+                <div class="answer">Oui, nous réalisons des devis gratuits et personnalisés après une première prise de contact.</div>
+            </div>
+        </div>
+    </main>
+    <script>
+      document.querySelectorAll('.question').forEach(item => {
+          item.addEventListener('click', () => {
+              const answer = item.nextElementSibling;
+              answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+          });
+      });
+    </script>
+</body>
+
+    <footer>
+        <section id="Contact">
+          <h2>Contact</h2>
+          <div class="footer-content">
+            <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
+            <div class="footer-info">
+              <ul class="social-links">
+                <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+              </ul>
+      
+              <div class="info-blocks">
+                <div class="info_container">
+                  <a href="tel:0788760571">07 88 76 05 71</a>
+                  <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                </div>
+                <div class="info_container">
+                  <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                  <address>102 Chemin du Génie, 06000 Nice</address>
+                </div>
+              </div>
+      
+              <div class="credit">
+                <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                <ul>
+                  <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                  <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                  <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                  <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
+                  <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
+                  <li><a href="team/laurette">6th person</a>Laurette</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+</body>
