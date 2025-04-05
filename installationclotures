@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UFT-8">
+    <meta charset="UTF-8"> <!-- Correction de l'UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="installationclotures.css">
     <title> Installations des Clôtures</title>
@@ -9,20 +9,20 @@
 
     <!--Open Graph pour FB, IG, Linked et autres RS-->
     <meta property="og:title" content="Installations des Clotures">
-    <meta propety="og:description" content="Jardin de Lucas propose plusieurs services donc celui de la conception des terrasses.">
+    <meta property="og:description" content="Jardin de Lucas propose plusieurs services dont celui de l'installation des clôtures."> <!-- Correction de 'propety' à 'property' -->
     <meta property="og:url" content="https://www.lucasjardins.fr/services/installation-clotures">
     <meta property="og:image" content="URL_de_l'image_illustrative_de_terrasses.jpg">
     <meta property="og:type" content="website">
     <meta name="author" content="Lucas Jardins">
 
-     <!-- Twitter Card -->
-     <meta name="twitter:title" content="Installations des clôtures par l'entreprise Lucas Jardins - Aménagez votre espace extérieur avec style">
-     <meta name="twitter:description" content="Découvrez nos conseils pour des installations fonctionnelles et esthétiques pour vos espaces extérieurs.">
-     <meta name="twitter:creator" content="@lucasjardins">
-     <meta name="twitter:site" content="@lucasjardins">
+    <!-- Twitter Card -->
+    <meta name="twitter:title" content="Installations des clôtures par l'entreprise Lucas Jardins - Aménagez votre espace extérieur avec style">
+    <meta name="twitter:description" content="Découvrez nos conseils pour des installations fonctionnelles et esthétiques pour vos espaces extérieurs.">
+    <meta name="twitter:creator" content="@lucasjardins">
+    <meta name="twitter:site" content="@lucasjardins">
 
-     <!--jSON Service de la conception des terrasses-->
-     <script type="application/ld+jason">
+    <!--jSON Service de la conception des terrasses-->
+    <script type="application/ld+json"> <!-- Correction du type de script -->
         {
             "@context": "https://schema.org",
             "type": "Service",
@@ -32,17 +32,15 @@
                 "@type": "Gardener",
                 "name": "Lucas Jardins",
                 "url": "https://www.lucasjardins.fr",
-                
-            "adress": {
-                "@type": "PostalAdress",
-                "StreetAdress": "102 Chemin du Génie",
-                "postalCode": "06000",
-                "addressLocality": "Nice",
-                "adressRegion": "PACA",
-                "adressCountry": "FR"
+                "address": {  <!-- Correction de 'adress' à 'address' -->
+                    "@type": "PostalAddress",
+                    "streetAddress": "102 Chemin du Génie",
+                    "postalCode": "06000",
+                    "addressLocality": "Nice",
+                    "addressRegion": "PACA",
+                    "addressCountry": "FR"
                 }
             }
-        
         }
     </script>
 </head>
@@ -67,7 +65,6 @@
         <img src="contenu/images/cloture1.jpg" alt="cloture jardin neuf">
         <img src="contenu/images/cloture2.jpg" alt="cloture jardin neuf">
         <img src="contenu/images/cloture3.jpg" alt="cloture jardin neuf">
- 
         </div>
     </section>
         <section id="description">
@@ -78,9 +75,8 @@
             <section id="fournisseurs">
                 <h2>Fournisseurs</h2>
                 <p>Nos fournisseurs jouent un rôle clé dans la réussite de chaque projet. Ils fournissent non seulement les matériaux nécessaires (bois, carrelage, pierres, etc.), mais aussi des équipements spécialisés pour assurer la qualité et la durabilité des rénovations. Ces partenariats nous permettent de proposer des solutions variées et personnalisées, adaptées aux besoins spécifiques de chaque client.</p>
-                <p>Nous collaborons avec des fournisseurs reconnus pour la qualité de leurs matériaux et leur fiabilité. Grâce à ces partenariats solides, nous vous proposons un large choix de clôtures : rigides, souples, en bois, PVC, aluminium ou encore décoratives.
-                    Nos fournisseurs partagent notre exigence de durabilité, d’esthétique et de respect des normes en vigueur, afin de garantir à nos clients des installations solides et durables.</p>
-                </section>
+                <p>Nous collaborons avec des fournisseurs reconnus pour la qualité de leurs matériaux et leur fiabilité. Grâce à ces partenariats solides, nous vous proposons un large choix de clôtures : rigides, souples, en bois, PVC, aluminium ou encore décoratives. Nos fournisseurs partagent notre exigence de durabilité, d’esthétique et de respect des normes en vigueur, afin de garantir à nos clients des installations solides et durables.</p>
+            </section>
         </section>
     </main>
     <footer>
@@ -120,4 +116,4 @@
         </section>
       </footer>
     </body>
-    </html>
+</html>
