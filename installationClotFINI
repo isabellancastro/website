@@ -1,122 +1,124 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head> <!-- Page faite par Tânia-->
-    <meta charset="UTF-8">
+<head><!-- Fait par Tânia-->
+    <meta charset="UFT-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LucasJardins</title>
-    <meta name="description" content="Site vitrine d'un professionnel proposant divers services dans le monde du jardinage.">
-    <link rel="stylesheet" href="contenu/css/accueil.css">
+    <link rel="stylesheet" href="installationclotures.css">
+    <title> Installations des Clôtures</title>
+    <meta name="description" content="Installations des clôtures par l'entreprise Lucas Jardins">
 
-    <!-- Open Graph pour FB, IG, LinkedIn et autres RS -->
-    <meta property="og:title" content="LucasJardins">
-    <meta property="og:description" content="Lucas Jardins est un professionnel dans toute la région des Alpes-Maritimes">
-    <meta property="og:url" content="https://www.lucasjardins.fr">
-    <meta property="og:type" content="profile">
+    <!--Open Graph pour FB, IG, Linked et autres RS-->
+    <meta property="og:title" content="Installations des Clotures">
+    <meta propety="og:description" content="Jardin de Lucas propose plusieurs services donc celui de la conception des terrasses.">
+    <meta property="og:url" content="https://www.lucasjardins.fr/services/installation-clotures">
+    <meta property="og:image" content="URL_de_l'image_illustrative_de_terrasses.jpg">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Lucas Jardins">
 
-    <!-- Twitter Cards -->
-    <meta name="twitter:title" content="Lucas Jardins, professionnel dans toute la région des Alpes-Maritimes">
-    <meta name="twitter:description" content="Site vitrine d'un professionnel proposant divers services dans le monde du jardinage.">
-    <meta name="twitter:card" content="summary_large_image"> <!-- Aperçu avec grande image -->
-    <meta name="twitter:image" content="https://www.lucasjardins.fr/images/lucasjardins.webp"> <!-- URL permettant d'accéder à l'image -->
-    <meta name="twitter:creator" content="@lucasjardins06">
-    <meta name="twitter:site" content="@lucasjardins">
+     <!-- Twitter Card -->
+     <meta name="twitter:title" content="Installations des clôtures par l'entreprise Lucas Jardins - Aménagez votre espace extérieur avec style">
+     <meta name="twitter:description" content="Découvrez nos conseils pour des installations fonctionnelles et esthétiques pour vos espaces extérieurs.">
+     <meta name="twitter:creator" content="@lucasjardins">
+     <meta name="twitter:site" content="@lucasjardins">
+
+     <!--jSON Service de la conception des terrasses-->
+     <script type="application/ld+jason">
+        {
+            "@context": "https://schema.org",
+            "type": "Service",
+            "name": "Installations des clotures",
+            "description": "Service d'installations des clôtures professionnel accessible dans toute la région Alpes Maritimes.",
+            "provider": {
+                "@type": "Gardener",
+                "name": "Lucas Jardins",
+                "url": "https://www.lucasjardins.fr",
+                
+            "adress": {
+                "@type": "PostalAdress",
+                "StreetAdress": "102 Chemin du Génie",
+                "postalCode": "06000",
+                "addressLocality": "Nice",
+                "adressRegion": "PACA",
+                "adressCountry": "FR"
+                }
+            }
+        
+        }
+    </script>
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Lucas Jardins</h1>
-            <ul>
-                <li><a href="accueil.html">Accueil</a></li>
-                <li><a href="apropos.html">À propos</a></li>
-                <li><a href="services.html">Nos Services</a></li>   
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-        </nav>
-    </header>  
-
-    <section id="banphotos"> 
-        <img src="contenu/images/banniere.jpg" alt="Exemple d'une terrasse rénovée">
-        <img src="contenu/images/banniere2.jpg" alt="Exemple d'une terrasse rénovée">
-        <img src="contenu/images/banniere3.jpg" alt="Exemple d'une terrasse rénovée">
-    </section>
+      <nav>
+        <h1>Lucas Jardins</h1>
+        <ul>
+          <li><a href="accueil.html">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="services.html">Nos Services</a></li>   
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    </header>
 
     <main>
-        <section id="Bienvenue">
-            <div class="bloc1">
-                <h1>Bienvenue chez Lucas Jardins</h1>
-                <h2>Jardinier Paysagiste</h2>
-                <p>L’engagement du travail bien fait, la disponibilité, le conseil et l’accompagnement de nos clients, font de nous plus qu’un simple prestataire, mais véritablement « votre partenaire espaces verts » !</p>
-                <p>« Une équipe dynamique, professionnelle et à l’écoute de ses clients »</p>
-                <img src="contenu/images/banniere4.jpg" alt="Exemple d'une terrasse rénovée">
-            </div>
-        </section>
-
-        <section id="Engagements">
-            <div class="bloc2">
-                <h1>Nos engagements</h1>  
-                <div class="promesses1">
-                    <h4>Conseils individualisés</h4>
-                    <p>« Nous vous conseillons et vous accompagnons durant toutes les étapes »</p>
-                </div>
-                <div class="promesses2">
-                    <h4>Plantes de qualité</h4>
-                    <p>Un de nos engagements est de tenir les délais présentés.</p>
-                </div>
-                <div class="promesses3">
-                    <h4>Délais respectés</h4>
-                    <p>Un autre de nos engagements est de respecter les délais convenus.</p>
-                </div>
-                <div class="promesses4">
-                    <h4>Services professionnels</h4>
-                    <p>Depuis 1998, nous œuvrons pour satisfaire nos clients.</p>
-                </div>
-                <img src="contenu/images/banniere3.jpg" alt="Exemple d'une terrasse rénovée">
-            </div>
-        </section>
-
-        <section id="présentation">
-            <h2>Qui sommes-nous ?</h2>
-            <p>Notre équipe de professionnels qualifiés combine expertise et créativité pour offrir des espaces extérieurs fonctionnels et esthétiques. Chez Lucas Jardins, nous privilégions la qualité, le respect de l'environnement et la satisfaction de nos clients.</p>
+      <section id="banniere">
+        <h1>Installation des Clôtures</h1>
+        <div class="image-container">
+        <img src="contenu/images/cloture1.jpg" alt="cloture jardin neuf">
+        <img src="contenu/images/cloture2.jpg" alt="cloture jardin neuf">
+        <img src="contenu/images/cloture3.jpg" alt="cloture jardin neuf">
+ 
+        </div>
+    </section>
+        <section id="description">
+            <section id="information">
+                <h2>Informations Clôtures</h2>
+                <p>Notre entreprise est spécialisée dans l’installation de clôtures sur mesure, alliant sécurité, esthétique et durabilité. Que vous soyez un particulier ou un professionnel, nous vous accompagnons dans tous vos projets : clôtures rigides, grillagées, bois, aluminium ou PVC.</p>
+            </section>
+            <section id="fournisseurs">
+                <h2>Fournisseurs</h2>
+                <p>Nos fournisseurs jouent un rôle clé dans la réussite de chaque projet. Ils fournissent non seulement les matériaux nécessaires (bois, carrelage, pierres, etc.), mais aussi des équipements spécialisés pour assurer la qualité et la durabilité des rénovations. Ces partenariats nous permettent de proposer des solutions variées et personnalisées, adaptées aux besoins spécifiques de chaque client.</p>
+                <p>Nous collaborons avec des fournisseurs reconnus pour la qualité de leurs matériaux et leur fiabilité. Grâce à ces partenariats solides, nous vous proposons un large choix de clôtures : rigides, souples, en bois, PVC, aluminium ou encore décoratives.
+                    Nos fournisseurs partagent notre exigence de durabilité, d’esthétique et de respect des normes en vigueur, afin de garantir à nos clients des installations solides et durables.</p>
+                </section>
         </section>
     </main>
-
     <footer>
         <section id="Contact">
-            <h2>Contact</h2>
-            <div class="footer-content">
-                <img src="contenu/images/plancontact.jpg" alt="Exemple d'une terrasse rénovée">
-                <div class="footer-info">
-                    <ul class="social-links">
-                        <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
-                        <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
-                    </ul>
-
-                    <div class="info-blocks">
-                        <div class="info_container">
-                            <a href="tel:0788760571">07 88 76 05 71</a>
-                            <p>Horaires : du lundi au vendredi, de 8h00 à 18h00</p>
-                        </div>
-                        <div class="info_container">
-                            <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
-                            <address>102 Chemin du Génie, 06000 Nice</address>
-                        </div>
-                    </div>
-
-                    <div class="credit">
-                        <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
-                        <ul>
-                            <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
-                            <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
-                            <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
-                            <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
-                            <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
-                            <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
-                        </ul>
-                    </div>
+          <h2>Contact</h2>
+          <div class="footer-content">
+            <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
+            <div class="footer-info">
+              <ul class="social-links">
+                <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+              </ul>
+      
+              <div class="info-blocks">
+                <div class="info_container">
+                  <a href="tel:0788760571">07 88 76 05 71</a>
+                  <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
                 </div>
+                <div class="info_container">
+                  <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                  <address>102 Chemin du Génie, 06000 Nice</address>
+                </div>
+              </div>
+      
+              <div class="credit">
+                <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                <ul>
+                  <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                  <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                  <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                  <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
+                  <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
+                  <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
         </section>
-    </footer>
-</body>
-</html>
+      </footer>
+    </body>
+    </html>
