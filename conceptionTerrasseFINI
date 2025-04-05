@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head><!-- Fait par Tânia -->
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="conceptionterrasse.css">
-    <title> Conceptions des Terrasses</title>
-    <meta name="description" content="Conceptions des Terrasse de Lucas Jardins">
+    <title>Conception des Terrasses</title>
+    <meta name="description" content="Conception des terrasses par Lucas Jardins">
 
     <!--Open Graph pour FB, IG, Linked et autres RS-->
-    <meta property="og:title" content="Conceptions des Terrasses">
-    <meta propety="og:description" content="Jardin de Lucas propose plusieurs services donc celui de la conception des terrasses.">
+    <meta property="og:title" content="Conception des Terrasses">
+    <meta property="og:description" content="Jardin de Lucas propose plusieurs services, dont celui de la conception des terrasses.">
     <meta property="og:url" content="https://www.lucasjardins.fr/services/conception-terrasses">
     <meta property="og:image" content="URL_de_l'image_illustrative_de_terrasses.jpg">
     <meta property="og:type" content="website">
@@ -21,28 +21,26 @@
      <meta name="twitter:creator" content="@lucasjardins">
      <meta name="twitter:site" content="@lucasjardins">
 
-     <!--jSON Service de la conception des terrasses-->
-     <script type="application/ld+jason">
+     <!-- JSON-LD Service de la conception des terrasses -->
+     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "type": "Service",
             "name": "Conception des terrasses",
-            "description": "Service de conception de terrasses professionnel accessible dans tout la région Alpes Maritimes.",
+            "description": "Service de conception de terrasses professionnel accessible dans toute la région Alpes Maritimes.",
             "provider": {
                 "@type": "Gardener",
                 "name": "Lucas Jardins",
                 "url": "https://www.lucasjardins.fr",
-                
-            "adress": {
-                "@type": "PostalAdress",
-                "StreetAdress": "102 Chemin du Génie",
-                "postalCode": "06000",
-                "addressLocality": "Nice",
-                "adressRegion": "PACA",
-                "adressCountry": "FR"
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "102 Chemin du Génie",
+                    "postalCode": "06000",
+                    "addressLocality": "Nice",
+                    "addressRegion": "PACA",
+                    "addressCountry": "FR"
                 }
             }
-        
         }
     </script>
 </head>
@@ -62,13 +60,13 @@
 
     <main>
       <section id="banniere">
-        <h1>Conception des Terrases</h1>
+        <h1>Conception des Terrasses</h1>
         <div class="image-container">
-        <img src="contenu/images/terrasse1.jpg" alt="un exemlpe d'une terrase rénové">
-        <img src="contenu/images/terrasse2.jpg" alt="un exemlpe d'une terrase rénové">
-        <img src="contenu/images/terrasserev2ù.jpg" alt="un exemlpe d'une terrase rénové">
-        <img src="contenu/images/terasse3.jpg" alt="un exemlpe d'une terrase rénové">
-        <img src="contenu/images/terasse4.jpg" alt="un exemlpe d'une terrase rénové">
+        <img src="contenu/images/terrasse1.jpg" alt="Exemple de terrasse rénovée">
+        <img src="contenu/images/terrasse2.jpg" alt="Exemple de terrasse rénovée">
+        <img src="contenu/images/terrasserev2.jpg" alt="Exemple de terrasse rénovée">
+        <img src="contenu/images/terasse3.jpg" alt="Exemple de terrasse rénovée">
+        <img src="contenu/images/terasse4.jpg" alt="Exemple de terrasse rénovée">
         </div>
     </section>
         <section id="description">
@@ -80,14 +78,14 @@
                 <h2>Fournisseurs</h2>
                 <p>Nos fournisseurs jouent un rôle clé dans la réussite de chaque projet. Ils fournissent non seulement les matériaux nécessaires (bois, carrelage, pierres, etc.), mais aussi des équipements spécialisés pour assurer la qualité et la durabilité des rénovations. Ces partenariats nous permettent de proposer des solutions variées et personnalisées, adaptées aux besoins spécifiques de chaque client.</p>
                 <p>L’entreprise sélectionne ses fournisseurs avec soin, en privilégiant ceux qui offrent des produits de haute qualité, respectent les délais et sont soucieux de l’impact environnemental de leurs matériaux. Grâce à cette collaboration, les projets de rénovation de terrasses peuvent être réalisés dans les meilleures conditions, tout en garantissant une finition impeccable et une longue durée de vie des installations.</p>
-                </section>
+            </section>
         </section>
     </main>
     <footer>
         <section id="Contact">
           <h2>Contact</h2>
           <div class="footer-content">
-            <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
+            <img src="contenu/images/plancontact.jpg" alt="Exemple d'une terrasse rénovée">
             <div class="footer-info">
               <ul class="social-links">
                 <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
@@ -108,18 +106,17 @@
               <div class="credit">
                 <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
                 <ul>
-              <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
-              <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
-              <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
-              <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
-              <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
-              <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
+                  <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                  <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                  <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                  <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
+                  <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
+                  <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
       </footer>
-      
-    </body>
-    </html>
+</body>
+</html>
