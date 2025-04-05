@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><!-- Fait par Maheva -->
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="drainage.css">
+    <title>Système de Drainage</title>
+    <meta name="description" content="Installation de systèmes de drainage efficaces pour vos espaces extérieurs avec Lucas Jardins.">
+
+    <!--Open Graph pour RS-->
+    <meta property="og:title" content="Système de Drainage">
+    <meta property="og:description" content="Lucas Jardins propose des solutions adaptées de drainage pour éviter l’accumulation d’eau et protéger vos espaces extérieurs.">
+    <meta property="og:url" content="https://www.lucasjardins.fr/services/systeme-de-drainage">
+    <meta property="og:image" content="URL_de_l'image_illustrative_systeme_de_drainage.jpg">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Lucas Jardins">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:title" content="Système de Drainage - Protégez vos extérieurs de l'humidité">
+    <meta name="twitter:description" content="Découvrez nos solutions de drainage pour éviter les risques d'humidité et préserver la qualité de vos sols et plantations.">
+    <meta name="twitter:creator" content="@lucasjardins">
+    <meta name="twitter:site" content="@lucasjardins">
+
+    <!-- JSON-LD -->
+    <script type="application/ld+jason">
+        {
+            "@context": "https://schema.org",
+            "type": "Service",
+            "name": "Système de Drainage",
+            "description": "Installation de systèmes de drainage professionnel pour éliminer l'excès d'eau et garantir un jardin en bonne santé.",
+            "provider": {
+                "@type": "Gardener",
+                "name": "Lucas Jardins",
+                "url": "https://www.lucasjardins.fr",
+                "adress": {
+                    "@type": "PostalAdress",
+                    "StreetAdress": "102 Chemin du Génie",
+                    "postalCode": "06000",
+                    "addressLocality": "Nice",
+                    "adressRegion": "PACA",
+                    "adressCountry": "FR"
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Lucas Jardins</h1>
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="services.html">Nos Services</a></li>   
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banniere">
+            <h1>Système de Drainage</h1>
+            <div class="image-container">
+                <img src="contenu/images/drainage1.jpg" alt="Exemple de drainage installé dans un jardin">
+                <img src="contenu/images/drainage2.jpg" alt="Système de drainage de jardin performant">
+                <img src="contenu/images/drainage3.jpg" alt="Installation d’un drain dans un espace extérieur">
+            </div>
+        </section>
+
+        <section id="description">
+            <section id="information">
+                <h2>Informations sur le Système de Drainage</h2>
+                <p>Un système de drainage efficace est essentiel pour éviter les problèmes d’accumulation d’eau dans votre jardin ou espace extérieur. L’installation de drains, de tranchées ou de pompes permet de rediriger l’eau vers des zones d’évacuation appropriées, évitant ainsi les risques d’humidité excessive, de pourriture des racines et de dégradation des sols.</p>
+                <p>Notre expertise dans ce domaine nous permet de proposer des solutions sur mesure, en fonction des besoins spécifiques de chaque terrain et des caractéristiques de votre espace extérieur. Un bon système de drainage est crucial pour maintenir la santé des plantations et prévenir les nuisances liées à l’eau stagnante.</p>
+            </section>
+
+            <section id="realisation">
+                <h2>Réalisation du Système de Drainage</h2>
+                <p>Nos équipes interviennent directement sur votre site pour analyser les zones à risque et concevoir des systèmes de drainage adaptés. Nous utilisons des matériaux de qualité pour assurer l’efficacité du drainage et la longévité de l’installation. L'objectif est d’assurer un fonctionnement optimal du système, même pendant les périodes de fortes pluies.</p>
+                <p>Nous intégrons des solutions discrètes et durables, qu’il s’agisse de drains enterrés, de canalisations périphériques ou de solutions plus avancées comme les bassins de rétention. Chaque projet est unique et fait l'objet d’une planification soignée afin de maximiser l’évacuation des eaux tout en préservant l'esthétique de votre jardin.</p>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <div class="footer-content">
+                <img src="contenu/images/plancontact.jpg" alt="plan d'accès Lucas Jardins">
+                <div class="footer-info">
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+                    </ul>
+        
+                    <div class="info-blocks">
+                        <div class="info_container">
+                            <a href="tel:0788760571">07 88 76 05 71</a>
+                            <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                        </div>
+                        <div class="info_container">
+                            <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                            <address>102 Chemin du Génie, 06000 Nice</address>
+                        </div>
+                    </div>
+        
+                    <div class="credit">
+                        <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                        <ul>
+                            <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                            <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                            <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                            <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
+                            <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
+                            <li><a href="team/laurette_messan.html">Laurette Messan</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
