@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head> <!-- Page fait par Tânia-->
+<head> <!-- Page faite par Tânia-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LucasJardins</title>
-    <meta name="description" content="Site vitrine d'un professionnel qui propose diverses services dans le monde du jardinnage.">
+    <meta name="description" content="Site vitrine d'un professionnel qui propose divers services dans le monde du jardinage.">
     <link rel="stylesheet" href="services.css">
 
        <!-- Open Graph pour FB, IG, Linkedin et autres RS-->
        <meta property="og:title" content="LucasJardins">
-       <meta property="og:description" content="Lucas Jardin est un professionnel dans toute la région des Alpes Maritines">
+       <meta property="og:description" content="Lucas Jardin est un professionnel dans toute la région des Alpes-Maritimes">
        <meta property="og:url" content="https://www.lucasjardins.fr">
        <meta property="og:type" content="profile">
 
   
       <!-- Twitter cards-->
-      <meta name="twitter:title" content="Lucas Jardin est un professionnel dans toute la région des Alpes Maritines">
-      <meta name="twitter:description" content="Site vitrine d'un professionnel qui propose diverses services dans le monde du jardinnage.">
+      <meta name="twitter:title" content="Lucas Jardin est un professionnel dans toute la région des Alpes-Maritimes">
+      <meta name="twitter:description" content="Site vitrine d'un professionnel qui propose divers services dans le monde du jardinage.">
       <meta name="twitter:card" content="summary_large_image"> <!-- Aperçu avec grande image -->
       <meta name="twitter:image" content="https://www.lucasjardins.fr/images/lucasjardins.webp"> <!-- URL permettant d'accéder à l'image -->
       <meta name="twitter:creator" content="@lucasjardins06">
@@ -35,66 +35,65 @@
               </ul>
             </nav>
     </header> 
-<body>
-<main>
-    <div class="service-description">
-        <h2>On vous offre les services suivants</h2>
-        <p>
-            Si vous pensez que nous pouvons rien faire pour vours, détrompez-vous! Nous répondons à tout types de service dans l'univers du jardinage!
-        </p>
-        <ul class="service-features">
-            <li><a href="amenagementaquatique.html" class="service-link">Aménagement Aquatique</a></li>
-            <li><a href="amenagementjardinsec.html" class="service-link">Aménagement Jardins</a></li>
-            <li><a href="amenagementpaysage.html" class="service-link">Aménagement Paysage</a></li>
-            <li><a href="systemearrosage.html" class="service-link">Systèmes d'Arrosage</a></li>
-            <li><a href="creation.html" class="service-link">Création Jardins</a></li>
-            <li><a href="conceptionterrasse.html" class="service-link">Conception Terrasses</a></li>
-            <li><a href="debroussaillage.html" class="service-link">Débroussaillage</a></li>
-            <li><a href="drainage.html" class="service-link">Systèmes de drainage</a></li>
-            <li><a href="elagage.html" class="service-link">Élegage</a></li>
-            <li><a href="entretienvegetaux.html" class="service-link">Entretien Végétaux</a></li>
-            <li><a href="installationclotures.html" class="service-link">Installations Clôtures</a></li>
-            <li><a href="plantation.html" class="service-link">Plantations</a></li>
-        </ul>
-    </div>
-</main>
-
-<footer>
-    <section id="Contact">
-      <h2>Contact</h2>
-      <div class="footer-content">
-        <img src="contenu/images/plancontact.jpg" alt="un exemple d'une terrasse rénovée">
-        <div class="footer-info">
-          <ul class="social-links">
-            <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
-            <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
-          </ul>
-  
-          <div class="info-blocks">
-            <div class="info_container">
-              <a href="tel:0788760571">07 88 76 05 71</a>
-              <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
-            </div>
-            <div class="info_container">
-              <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
-              <address>102 Chemin du Génie, 06000 Nice</address>
-            </div>
-          </div>
-  
-          <div class="credit">
-            <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
-            <ul>
-              <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
-              <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
-              <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
-              <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
-              <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
-              <li><a href="team/laurette">6th person</a>Laurette</li>
+    <main>
+        <div class="service-description">
+            <h2>Nous vous offrons les services suivants</h2>
+            <p>
+                Si vous pensez que nous ne pouvons rien faire pour vous, détrompez-vous ! Nous répondons à tout type de service dans l'univers du jardinage !
+            </p>
+            <ul class="service-features">
+                <li><a href="amenagementaquatique.html" class="service-link">Aménagement Aquatique</a></li>
+                <li><a href="amenagementjardinsec.html" class="service-link">Aménagement Jardin Sec</a></li>
+                <li><a href="amenagementpaysage.html" class="service-link">Aménagement Paysage</a></li>
+                <li><a href="systemearrosage.html" class="service-link">Systèmes d'Arrosage</a></li>
+                <li><a href="creation.html" class="service-link">Création de Jardins</a></li>
+                <li><a href="conceptionterrasse.html" class="service-link">Conception de Terrasses</a></li>
+                <li><a href="debroussaillage.html" class="service-link">Débroussaillage</a></li>
+                <li><a href="drainage.html" class="service-link">Systèmes de Drainage</a></li>
+                <li><a href="elagage.html" class="service-link">Élagage</a></li>
+                <li><a href="entretienvegetaux.html" class="service-link">Entretien des Végétaux</a></li>
+                <li><a href="installationclotures.html" class="service-link">Installation de Clôtures</a></li>
+                <li><a href="plantation.html" class="service-link">Plantations</a></li>
             </ul>
-          </div>
         </div>
-      </div>
-    </section>
-  </footer>
+    </main>
+
+    <footer>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <div class="footer-content">
+                <img src="contenu/images/plancontact.jpg" alt="Exemple d'une terrasse rénovée">
+                <div class="footer-info">
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/lucasjardins06" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/Lucas-Jardins" target="_blank">Facebook</a></li>
+                    </ul>
+
+                    <div class="info-blocks">
+                        <div class="info_container">
+                            <a href="tel:0788760571">07 88 76 05 71</a>
+                            <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
+                        </div>
+                        <div class="info_container">
+                            <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
+                            <address>102 Chemin du Génie, 06000 Nice</address>
+                        </div>
+                    </div>
+
+                    <div class="credit">
+                        <p>Lucas Jardins © 2025. Refonte réalisée par :</p>
+                        <ul>
+                            <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
+                            <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
+                            <li><a href="team/tania_rodrigues.html">Tania Rodrigues</a></li>
+                            <li><a href="team/fanny_thepenier.html">Fanny Thepenier</a></li>
+                            <li><a href="team/maheva_nguessam.html">Maheva Nguessam</a></li>
+                            <li><a href="team/laurette">6th person Laurette</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
